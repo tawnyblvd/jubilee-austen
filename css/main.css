@@ -1,0 +1,45 @@
+/* Base Styles */
+.page {
+  color: #2b2b2b;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.main__about .full-width {
+  padding: 80px 0;
+}
+
+.main_about,
+h2 {
+  font-family: "Lora", serif;
+}
+
+/* Grid */
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto; /* to clear floats...so we'll see if I use this */
+}
+
+.half-width {
+  float: left;
+  width: 600px; /* also under float assumption */
+}
+
+.third-width {
+  float: left;
+  width: 400px; /* also under float assumption */
+}
+/* Header */
+
+/* Main - About */
+
+/* Main - Work */
+
+/* Footer */
+.contact__content_link {
+  text-decoration: none;
+}
