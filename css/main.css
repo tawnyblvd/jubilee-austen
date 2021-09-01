@@ -77,7 +77,63 @@
 }
 
 /* Footer */
+.contact {
+  background-color: #EBEBEB;
+}
 
-.contact__content_link {
+.contact .full-width {
+  padding: 110px 0;
+}
+
+.contact__image {
+  border: 12px solid #FFFFFF;
+  margin-left: 25px;
+
+}
+
+.contact__main-header, .contact__email-header, .contact__social-media-header, .contact__social-list {
+  padding-left: 115px;
+}
+
+.contact__main-header {
+  font-family: "Lora", serif;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.contact__email-header {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 44px;
+  margin: -30px 0 5px 0;
+}
+
+.contact__envelope-icon {
+  padding: 0 10px 0 115px;
+}
+
+.contact__link {
+  color: #c49075;
+  font-size: 28px;
+  font-weight: bold;
   text-decoration: none;
+}
+
+.contact__social-media-header {
+  font-size: 29px;
+  font-weight: bold;
+  line-height: 44px;
+  margin: 40px 0 0 0;
+}
+
+.contact__social-list {
+  list-style: none;
+}
+
+.contact__social-list li {
+  display: inline-block;
+}
+
+.contact__social-list img {
+  padding-right: 48px;
 }
