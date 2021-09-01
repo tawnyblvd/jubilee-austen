@@ -20,23 +20,26 @@
 .full-width {
   width: 1200px;
   margin: 0 auto;
-  overflow: auto; /* to clear floats...so we'll see if I use this */
+  overflow: auto;
 }
 
 .half-width {
   float: left;
-  width: 600px; /* also under float assumption */
+  width: 600px;
 }
 
-.main_about h2 {
+.main__about h2 {
   font-family: "Lora", serif;
   font-size: 36px;
+  padding-left: 50px;
 }
 
 .main__about p {
   color: #7F7F7F;
   font-size: 21px;
   line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /* Main - Work */
@@ -52,7 +55,7 @@
 
 .third-width {
   float: left;
-  width: 400px; /* also under float assumption */
+  width: 400px;
 }
 
 .main__work img {
