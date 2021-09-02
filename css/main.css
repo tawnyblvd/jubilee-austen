@@ -7,8 +7,53 @@
 
 /* Header */
 
-.list {
+.header {
+  height: 800px;
+  background: url(../img/full-background.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.header__name {
+  color: #bbc085;
+  font-family: "Lora", serif;
+  font-size: 30px;
+  padding: 65px 0 65px 25px;
+}
+
+.header__menu {
+  float: right;
+  padding: 75px 25px;
+}
+
+.header__list {
   list-style: none;
+}
+
+.header__menu .header__list li {
+  display: inline-block;
+}
+
+.header__menu .header__list li a {
+  color: #828282;
+  font-size: 18px;
+  padding-left: 80px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  clear: none;
+  color: #9b9b9b;
+  font-family: "Lora", serif;
+  font-size: 72px;
+  line-height: 80px;
+  padding: 20px 0 20px 25px;
+  width: 950px;
+}
+
+.header h2 span {
+  color: #2b2b2b;
 }
 
 /* Main - About */
