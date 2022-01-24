@@ -201,10 +201,10 @@
   list-style: none;
 }
 
-.contact__social-list li {
+.contact__social-item {
   display: inline-block;
 }
 
-.contact__social-list img {
+.social-icon {
   padding-right: 48px;
 }
