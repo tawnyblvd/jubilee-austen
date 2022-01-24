@@ -95,12 +95,24 @@
   padding-left: 50px;
 }
 
-.main__about p {
+.main__about_text-location {
   color: #7f7f7f;
   font-size: 21px;
   line-height: 40px;
+  margin: 0;
   padding-left: 50px;
   padding-right: 50px;
+  width: 525px;
+}
+
+.main__about_text-background {
+  color: #7f7f7f;
+  font-size: 21px;
+  line-height: 40px;
+  margin: 0;
+  padding-left: 50px;
+  padding-right: 0;
+  width: 525px;
 }
 
 /* Main - Work */
